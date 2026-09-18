@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<title>Hoa sen</title>
-<style>
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donald Trump</title>
 
-    body {
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #f2f2f2;
-        font-family: Georgia, "Times New Roman", serif;
-    }
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    .container {
-        position: relative;
-        width: 430px;
-        height: 430px;
-        overflow: hidden;
-        border: 1px solid #ddd;
-    }
+        body {
+            background: #eee;
+            font-family: Georgia, "Times New Roman", serif;
+        }
 
-    .container img {
-        width: 100%;
-        height: 100%;
-        display: block;
-        object-fit: cover;
-    }
+        .container {
+            width: 430px;
+            height: 430px;
+            margin: 20px auto;
+            position: relative;
+            overflow: hidden;
+        }
 
-    .caption {
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 55px;
-        height: 84px;
+        .container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
 
-        display: flex;
-        align-items: center;
-        padding-left: 28px;
+        .text-box {
+            position: absolute;
+            left: 0;
+            bottom: 55px;
+            width: 100%;
 
-        background: rgba(0, 0, 0, 0.58);
-        color: #ddd;
+            padding: 28px;
 
-        font-size: 22px;
-        letter-spacing: 0.2px;
-    }
-</style>
+            background: rgba(0, 0, 0, 0.65);
+
+            color: white;
+            font-size: 22px;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <img src="opacity.png" alt="Hoa sen">
 
-        <div class="caption">
-            Trong đầm gì đẹp bằng sen
+    <div class="container">
+
+        <img
+            src="https://commons.wikimedia.org/wiki/Special:FilePath/Official%20Presidential%20Portrait%20of%20President%20Donald%20J.%20Trump%20%282025%29.jpg"
+            alt="Donald Trump"
+        >
+
+        <div class="text-box">
+            bịa bịa
         </div>
+
     </div>
+
 </body>
 </html>
